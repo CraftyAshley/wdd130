@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+:root {
+    --primary-color: #023047;
+    --secondary-color: #8ECAE6;
+    --accent1-color: #FFB703;
+    --accent2-color: #FB8500;
+
+    --heading-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #8ECAE6;
+    --nav-link-color: #023047;
+    --nav-hover-link-color: #FB8500;
+    --nav-hover-background-color: #FFB703;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+
+
+/* Class Selectors */
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;     
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #0230473d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.hero article {
+    position: absolute;
+    width: 75%;
+    top: 150px;
+    right: 136px;
+    background-color: #ffb703b8;
+    padding: 10px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 225px;
+
+}
