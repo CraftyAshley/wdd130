@@ -22,13 +22,33 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 header {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    align-items: center;
     padding: 20px;
     background-color: var(--accent1-color);
+    margin: 0 auto;
+}
+
+header img {
+    width: 150px;
+    margin: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
 }
 
 p {
@@ -36,10 +56,25 @@ p {
 
 }
 
+
+
 footer a {
     text-decoration: none;
 }
 
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer nav {
+    margin: 0;
+}
+
+footer p {
+    margin-right: 50px;
+}
 
 
 
@@ -77,5 +112,29 @@ footer a {
 .hero article img {
     float: right;
     width: 225px;
+}
 
+.river-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.river-pictures img {
+    width: 150px;
+    height: 100px;
+}
+
+.river-pictures figure {
+    margin: 0;
+    
+}
+
+.river-pictures figcaption {
+    font-size: 12px;
+}
+
+.sociallinks img {
+    width: 40px;
+ 
+   
 }
