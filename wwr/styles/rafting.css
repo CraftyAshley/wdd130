@@ -45,6 +45,8 @@ header img {
     width: 150px;
     margin: auto;
 }
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -63,7 +65,29 @@ p {
 
 }
 
+legend {
+    padding: 0.5rem;
+    text-align: center;
+    color: #023047;
+    font-family: var(--heading-font);
+    font-size: 2em;
+}
 
+button {
+    margin: 1rem;
+    background-color: #FFB703;
+    color: black;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #FB8500;
+}
 
 footer a {
     text-decoration: none;
@@ -132,8 +156,7 @@ footer p {
 }
 
 .river-pictures figure {
-    margin: 0;
-    
+    margin: 0;    
 }
 
 .river-pictures figcaption {
@@ -142,6 +165,88 @@ footer p {
 
 .sociallinks img {
     width: 40px;
- 
+ }
+
+.our-team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+}
+
+.our-team img {
+    width: 150px;
+    height: 100px;
+}
+
+.our-team figure { 
+    margin: 0;
+}
+
+.our-team figcaption {
+    font-size: 12px;
+
+}
+
+.our-team h2 {
+    text-align: left;
+}
+
+.company-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    
+}
+.company-info h2 {
+    text-align: left;
+    margin: 0;
+    padding: 15px;
+    
+}
+.company-info p {
+    padding: 15px;
+
+}
+
+.contact-us {
+    background-color: #EBF1F5;
+}
+
+.contact-us p { 
+    font-family: var(--paragraph-font);
+    
+}
+
+.form-item-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin-bottom: 10px;
+    padding-bottom: 10px;
    
+}
+
+.form-item-top input {
+    width: 65%;
+}
+
+.checkbox {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
+.message-box {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.form-item-bottom {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.sections {
+    padding-top: 30px;
 }

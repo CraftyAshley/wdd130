@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Rafting Site | Contact Page</title>
+  <meta name="author" content="Ashley Gibbons">
+  <meta name="description" content="Contact Page on the RaftingQuest Adventure Company website.">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rafting Site Logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <section class="sections">
+      <div class="our-team">
+        <h2>Meet Our Team</h2>
+        <figure><img src="images/ourteam1.jpeg" alt="Employee Jake Rafting" />
+          <figcaption>Jake loves navigating the rapids with expertise and a smile! </figcaption>
+        </figure>
+        <figure><img src="images/ourteam2.jpeg" alt="Employee Ava Rafting" />
+          <figcaption>Ava is one of our experts and has been rafting since she could walk. </figcaption>
+        </figure>
+        <figure><img src="images/ourteam3.jpeg" alt="Employee Maurice Rafting" />
+          <figcaption>Maurice is one with the river and is always looking for an adventure.</figcaption>
+        </figure>
+
+      </div>
+    </section>
+    <section class="sections">
+      <div class="company-info">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34208.64962839006!2d-109.5769670182054!3d38.56960291023348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1707511013977!5m2!1sen!2sus"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+          <h2>Company Information</h2>
+          <p>
+            625 Riversands Rd.
+            <br>
+            Moab, UT 84532
+          </p>
+          <p>(435) 555-1234</p>
+          <p>info@raftingquestadventures.com</p>
+        </div>
+      </div>
+    </section>
+    <section class="sections">
+      <form>
+        <fieldset class="contact-us">
+          <legend>Contact Us</legend>
+          <div class="form-item-top">
+            <div>
+              <label for="fullname">Full Name:</label>
+              <input type="text" id="fullname" name="fullname">
+            </div>
+            <div>
+              <label for="email"> Email:</label>
+              <input type="email" id="email" name="useremail">
+            </div>
+          </div>
+          <div class="checkbox">
+            <label for="message-purpose">What is the purpose of this message?</label>
+            <select id="message-purpose" name="message-purpose">
+              <option value="">Chose one ...</option>
+              <option value="general">General Inquiry</option>
+              <option value="question">Reservation Question</option>
+              <option value="suggestion">Website Suggestion</option>
+            </select>
+          </div>
+          <div class="message-box">
+            <label class="message" for="message"></label>
+            <textarea id="message" name="message" cols="100" rows="15"
+              placeholder="Write your message here ..."></textarea>
+          </div>
+          <div class="form-item-bottom">
+            <div>
+              <input type="checkbox" id="subscribe" name="subscribe">
+              <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            </div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>
+      &#169; 2002 &#128507; RaftingQuest Adventure Company &#128507; Ashley
+      Gibbons
+    </p>
+    <nav class="sociallinks">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="Facebook" /></a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.png" alt="Twitter" />
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="Instagram" />
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
