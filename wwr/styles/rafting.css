@@ -167,6 +167,14 @@ footer p {
     width: 40px;
  }
 
+
+.contact-us-header {
+    text-align: center;
+    width: 100%;
+    background-color: #0230473d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .our-team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -228,10 +236,14 @@ footer p {
     width: 65%;
 }
 
-.checkbox {
+.radio {
     margin-bottom: 10px;
     padding-bottom: 10px;
 
+}
+
+.radio p {
+    padding: 0;
 }
 
 .message-box {
