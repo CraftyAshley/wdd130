@@ -89,6 +89,22 @@ button:hover {
     background-color: #FB8500;
 }
 
+table, td {
+    border: 1px solid #023047;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+thead, tfoot {
+    background-color: #FFE299 ;
+    color: #023047;
+}
+
+th, td {
+    padding: .75rem;
+}
+   
+
 footer a {
     text-decoration: none;
 }
@@ -170,8 +186,9 @@ footer p {
 
 
 .contact-us-header {
-    text-align: center;
+    top: 20px;
     width: 100%;
+    text-align: center;
     background-color: #0230473d;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -217,7 +234,7 @@ footer p {
 }
 
 .contact-us {
-    background-color: #EBF1F5;
+    background-color: #DEF0F7;
 }
 
 .contact-us p { 
@@ -262,4 +279,151 @@ footer p {
 }
 .sections {
     padding-top: 30px;
+}
+
+
+.trips-header {  
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #0230473d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.half-day {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+    
+}
+
+.one-day {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+}
+
+.two-day {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+}
+
+.two-day img {
+    width: 300px;
+    height: 200px;
+}
+
+.one-day-table {
+    background-color: #DEF0F7;
+}
+
+
+.trip {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.trip-button {
+    background-color: #FFB703;
+    color: black;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 200px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.trip-button:hover {
+    background-color: #FB8500;
+}
+
+.home-image {
+    position: relative;
+}
+
+.home-image h1 {
+    position: absolute;     
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #0230471c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.home-image a {
+    position: absolute;
+    width: 75%;
+    top: 150px;
+    right: 136px;
+    background-color: #ffb703;
+    padding: 10px;
+}
+
+.home-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 4rem;
+}
+
+.home-grid p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.home-grid img {
+    width: 300px;
+    padding: 5px;
+}
+
+
+.solo-pic {
+    background-color: #def0f797;
+    display: grid;
+    justify-content: center;
+}
+
+.solo-desc {
+    background-color: #def0f797;
+}
+
+.newsletter-section {
+    margin-top: 4rem;
+}
+
+.newsletter {
+    background-color: #fb860022;
+    
+}
+
+.newsletter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.newsletter-grid input {
+    width: 65%
+}
+
+
+.newsletter button {
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+    display: grid;
+    align-items: center;
 }
